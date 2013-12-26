@@ -35,3 +35,9 @@ FG is between 0 and 15. BG is between 0 and 7.
 | 6    | cyan   | 14   | light cyan |
 | 7    | white  | 15   | bright white |
 
+### `** locate ** *(row, col)*`
+
+Put the cursor at a certain position. The coordinate system starts from the
+top-left corner at `(0, 0)`, and extends down per row with the first param and
+right per character column with the second param. Terminals default to 24x80,
+but resizing them will of course change the dimension.
