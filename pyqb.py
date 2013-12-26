@@ -15,3 +15,6 @@ def color(fg, bg=0):
     write('\033['+ str(light) +';3' + str(fg) + 'm')
     write('\033[4' + str(bg) + 'm')
 
+def locate(y, x):
+    write('\033['+ str(y) +';'+ str(x) +'f')
+
