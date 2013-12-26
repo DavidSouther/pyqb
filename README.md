@@ -11,15 +11,15 @@ start printing those ╔╦╛ characters!
 
 Remember QuickBasic? Color? Locate? CLS? They're all here!
 
-### `** cls **`
+### `cls()`
 
 Clear the terminal, and reset the cursor to `(0, 0)`.
 
-### `** write ** *(string)*`
+### `write(string)`
 
 Write some characters, with no following new line.
 
-### `** color ** *(fg, bg = 0)*`
+### `color(fg, bg = 0)`
 
 Set the current terminal color. Background is optional, and defaults to black.
 FG is between 0 and 15. BG is between 0 and 7.
@@ -35,7 +35,7 @@ FG is between 0 and 15. BG is between 0 and 7.
 | 6    | cyan   | 14   | light cyan |
 | 7    | white  | 15   | bright white |
 
-### `** locate ** *(row, col)*`
+### `locate(row, col)`
 
 Put the cursor at a certain position. The coordinate system starts from the
 top-left corner at `(0, 0)`, and extends down per row with the first param and
