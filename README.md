@@ -7,6 +7,14 @@ you loved from the 80s, without the overhead and foolish limitations and
 "architecture" imposed by (n)curses. Set your terminal to DOS (Latin 1) and
 start printing those ╔╦╛ characters!
 
+## Examples
+
+Check ou the various scripts in here. Also, this screenshot:
+
+![Aww Yeah!](./full.png)
+
+Aww Yeah!
+
 ## Usage
 
 Remember QuickBasic? Color? Locate? CLS? They're all here!
