@@ -11,7 +11,7 @@ start printing those ╔╦╛ characters!
 
 Check ou the various scripts in here. Also, this screenshot:
 
-![Aww Yeah!](./full.png)
+![Aww Yeah!](./hellos.png)
 
 Aww Yeah!
 
